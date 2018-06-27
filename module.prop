@@ -1,0 +1,7 @@
+id=Venom-MoD
+name=Venom-MoD
+version=v1
+versionCode=1
+author=The~Skater~187
+description=This module is a bunch of my favorite build.prop "Tweaks" that can now be installed seamlessly and systemlessly via Magisk.
+minMagisk=1500
