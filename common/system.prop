@@ -3,7 +3,7 @@
 # ro.sf.lcd_density=320
 
 ro.secure=0
-dalvik.vm.execution-mode=int:jit
+dalvik.vm.execution-mode=int:fast
 dalvik.vm.dexopt-flags=m=y
 ro.vold.umsdirtyratio=20
 ro.home_app_adj=1
