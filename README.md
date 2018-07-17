@@ -6,7 +6,7 @@ This module is a bunch of my favorite build.prop "Tweaks" that can now be instal
 This module uses the tool "resetprop" to modify the default values found in build.prop to:
 
 ro.secure=0
-dalvik.vm.execution-mode=int:jit
+dalvik.vm.execution-mode=int:fast
 dalvik.vm.dexopt-flags=m=y
 ro.vold.umsdirtyratio=20
 ro.home_app_adj=1
