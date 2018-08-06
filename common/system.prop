@@ -2,11 +2,17 @@
 # Example: Change dpi
 # ro.sf.lcd_density=320
 
+#################
+#  Venom-Tweaks #
+#################
 ro.secure=0
+dalvik.vm.dexopt-data-only=1
+dalvik.vm.jmiopts=forcecopy
+dalvik.vm.verify-bytecode=false
 dalvik.vm.execution-mode=int:fast
 dalvik.vm.dexopt-flags=m=y
 ro.vold.umsdirtyratio=20
-ro.home_app_adj=1
+ro.HOME_APP_ADJ=1
 debug.kill_allocating_task=0
 debug.enabletr=true
 debug.overlayui.enable=1
@@ -63,6 +69,7 @@ ro.product.gpu.driver=1
 hw3d.force=1
 hw2d.force=1
 wifi.supplicant_scan_interval=220
+telephony.slteOnCdmaDevice=1
 persist.sys.ui.hw=1
 persist.sampling_profiler=0
 persist.radio.lteon=false
@@ -163,4 +170,19 @@ media.stagefright.enable-meta=true
 media.stagefright.enable-scan=true
 media.stagefright.enable-http=true
 media.stagefright.enable-rtsp=true
-
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+jpeg.libskiahw.decoder.enable=1
+jpeg.libskiahw.decoder.thresh=100000
+ro.media.capture.flashMinV=3300000
+ro.media.capture.torchIntensity=65
+ro.media.capture.flashIntensity=70
+ro.media.enc.jpeg.quality=100
+ro.media.dec.jpeg.memcap=8000000
+ro.media.enc.hprof.vid.bps=8000000
+ro.media.capture.maxres=16m
+ro.media.capture.fast.fps=4
+ro.media.capture.slow.fps=120
+ro.media.panorama.defres=3264x1840
+ro.media.panorama.frameres=1280x720
+ro.camcorder.videoModes=true
