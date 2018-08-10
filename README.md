@@ -196,4 +196,4 @@ ro.camcorder.videoModes=true
 ## Changelog 
 * Release v1.2
   -Added some new camera and ART tweaks
-# Venom_Mod
+
